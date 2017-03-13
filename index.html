@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- Navbar here -->
@@ -15,8 +16,8 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Navbar</a>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="navbar-brand" href="#"><img src="images/logo1.png"></a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#">OUR WORK<span class="sr-only">(current)</span></a>
@@ -40,14 +41,59 @@
       </div>
     </nav>
     <!-- Jumbotron section -->
-    <div class="jumbotron">
-      <h1 class="display-3">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <div class="jumbotron text-center">
+      <p class="lead">SCIENCE</p>
+      <h1 class="display-3 text-white pt-3">Follow the Science</h1>
+      <p class="lead text-white">People and nature can thrive together—but only if we follow the science.</p>
       <p class="lead">
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </p>
+    </div>
+
+    <div class="container text-center">
+      <p class="lead">OUR MISSION</p>
+      <h2>Conserving the lands and waters on which all life depends</h2>
+      <p>Every acre we protect, every river mile restored, every species brought back from the brink, begins with you. Your support will help make a lasting difference around the world in 69 countries.</p>
+      <p class="lead input-group">
+        <input type="email" placeholder="Enter your email addres" class="email form-control" style="width: 250px">
+      </p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">JOIN US</a>
+      </p>
+
+    <!-- image sections -->
+      <div class="row">
+        <div class="col-4 col-one">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="images/col1.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">The Challenges Ahead</h4>
+              <p class="card-text">We're at a pivotal moment for the health of our planet, with big challenges and big opportunities ahead of us in 2017</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-two">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="images/col2.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Addressing Climate Change</h4>
+              <p class="card-text">A group of prominent conservatives has offered a plan to address climate change, and we view it as a way forward.</p>
+              <a href="#" class="btn btn-primary">Why We Support It</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-three">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="images/col3.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">A Better Way</h4>
+              <p class="card-text">Hear from our policy expert, Glenn Prickett, about why investing in nature is a better way to meet America's needs.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
