@@ -10,24 +10,12 @@
   line-height: 45px;
 }
 
-/*.col-one {
-  background-color: salmon;
+.dropdown {
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  height: 45vh;
 }
 
-.col-two {
-  background-color: lightblue;
-}
-
-.col-three {
-  background-color: yellow;
-}*/
-
-/*.email {
-  float: left;
-  margin-left: 350px;
-  margin-right: -300px;
-  margin-top: 5px;
-}*/
 .lead input-group {
   width: 100px;
 }
