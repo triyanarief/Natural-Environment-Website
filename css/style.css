@@ -13,6 +13,8 @@
 .dropdown {
   background-image: url(../images/bg2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15px;
   height: 45vh;
 }
 
