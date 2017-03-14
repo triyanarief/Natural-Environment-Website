@@ -11,11 +11,11 @@
 }
 
 .dropdown {
-  background-image: url(../images/bg2.jpg);
+  background-image: url(../images/bg3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 15px;
-  height: 45vh;
+  padding-top: 155px;
+  height: 65vh;
 }
 
 .lead input-group {
